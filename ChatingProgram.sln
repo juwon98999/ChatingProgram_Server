@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientProgram", "ChatingProgram\ClientProgram.csproj", "{034DFE69-7AFE-4DAF-BEC9-A04D236CC60A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerProgram", "ServerProgram\ServerProgram.csproj", "{50FA485A-16DC-436E-9A82-152F300EDE7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034DFE69-7AFE-4DAF-BEC9-A04D236CC60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034DFE69-7AFE-4DAF-BEC9-A04D236CC60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034DFE69-7AFE-4DAF-BEC9-A04D236CC60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034DFE69-7AFE-4DAF-BEC9-A04D236CC60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FA485A-16DC-436E-9A82-152F300EDE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FA485A-16DC-436E-9A82-152F300EDE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FA485A-16DC-436E-9A82-152F300EDE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FA485A-16DC-436E-9A82-152F300EDE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {635EF655-E27E-461D-A202-47B612FB5A8D}
+	EndGlobalSection
+EndGlobal
