@@ -22,9 +22,10 @@ public class Chat_Client
             while (Client_Connect == false)
             {
                 String InputTCP = Console.ReadLine();
-                //if (InputTCP == $"/c {server}:{port}")
+                
                 Console.Clear();
-                if (InputTCP == $"/c")
+                if (InputTCP == $"/c {server}:{port}")
+                //if (InputTCP == $"/c")
                 {
                     Client_list.AddLast("127.0.0.1:9000에 접속시도중...");
                     Client_Connect = true;
@@ -113,7 +114,7 @@ public class Chat_Client
     }
 
     public static void Client_Read(LinkedList<string> Cl_list, Byte[] data,
-        NetworkStream stream, bool Trigger)
+    NetworkStream stream, bool Trigger)
     {
         data = new Byte[256];
         String responseData = String.Empty;
